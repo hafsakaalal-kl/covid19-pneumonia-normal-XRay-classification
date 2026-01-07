@@ -105,14 +105,11 @@ Les modèles par transfert learning (ResNet50, VGG16) surpassent nettement l’a
 ### Limitations actuelles
 - Déséquilibre des classes  
 - Taille d’image réduite pour raisons computationnelles  
-- Absence de validation croisée  
-- Manque d’interprétabilité (pas de Grad-CAM)
 
 ### Améliorations envisageables
 - Collecte de données supplémentaires  
 - Augmentation plus poussée (mixup, cutmix, style transfer)  
 - Ensemble de modèles  
-- Explicabilité : visualisation des régions d’intérêt  
 - Déploiement sous forme d’API ou interface web
 
 ---
